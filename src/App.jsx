@@ -1,18 +1,17 @@
-import React from 'react';
-import CarForm from './components/CarForm.jsx';
-import CarList from './components/CarList.jsx';
-import CarSearch from './components/CarSearch.jsx';
-import CarValue from './components/CarValue.jsx';
-function App () {
-  return(
-    <div>
+import React from "react";
+import CarForm from "./components/CarForm.jsx";
+import CarList from "./components/CarList.jsx";
+import CarSearch from "./components/CarSearch.jsx";
+import CarValue from "./components/CarValue.jsx";
+function App() {
+  return (
+    <div className="container is-fluid">
       <CarForm />
-      <CarList />
       <CarSearch />
+      <CarList />
       <CarValue />
     </div>
-)
-  
+  );
 }
 
 export default App;
